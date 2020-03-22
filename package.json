@@ -1,6 +1,6 @@
 {
 	"name": "vuepress-theme-solarized",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Solarized theme for Vuepress",
 	"main": "index.js",
 	"publishConfig": {
