@@ -142,4 +142,8 @@ div[class~="language-bash"]:before
 div[class~="language-php"]:before
   content "php"
 
-@import '~prismjs/themes/prism-tomorrow.css'
+[data-theme='dark']
+    @require './solarized-light.styl'
+
+[data-theme='light']
+    @require './solarized-dark.styl'

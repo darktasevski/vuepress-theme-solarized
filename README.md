@@ -1,6 +1,6 @@
 # vuepress-theme-solarized
 
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+[![npm](https://img.shields.io/npm/v/vuepress-theme-solarized)](https://www.npmjs.com/package/vuepress-theme-solarized) [![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE) [![Vuepress](https://img.shields.io/github/package-json/dependency-version/Puritanic/vuepress-theme-solarized/@vuepress/plugin-search?label=vuepress)](https://github.com/vuejs/vuepress) [![Build Status](https://travis-ci.org/Puritanic/vuepress-theme-solarized.svg?branch=master)](https://travis-ci.org/Puritanic/vuepress-theme-solarized)
 
 The Solarized theme for Vuepress
 
