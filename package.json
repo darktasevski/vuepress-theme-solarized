@@ -1,0 +1,50 @@
+{
+	"name": "vuepress-theme-solarized",
+	"version": "1.0.0",
+	"description": "Solarized theme for Vuepress",
+	"main": "index.js",
+	"publishConfig": {
+		"access": "public"
+	},
+	"keywords": [
+		"documentation",
+		"generator",
+		"vue",
+		"vuepress"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"@vuepress/plugin-active-header-links": "^1.3.0",
+		"@vuepress/plugin-nprogress": "^1.3.0",
+		"@vuepress/plugin-search": "^1.3.0",
+		"docsearch.js": "^2.5.2",
+		"lodash": "^4.17.15",
+		"stylus": "^0.54.5",
+		"stylus-loader": "^3.0.2",
+		"vuepress-plugin-container": "^2.0.2",
+		"vuepress-plugin-smooth-scroll": "^0.0.9"
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb-base": "^14.1.0",
+		"eslint-config-prettier": "^6.10.1",
+		"eslint-plugin-import": "^2.20.1",
+		"eslint-plugin-prettier": "^3.1.2",
+		"eslint-plugin-vue": "^6.2.2",
+		"prism-solarized-dark": "^1.0.1",
+		"vue-eslint-parser": "^7.0.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Puritanic/vuepress-theme-solarized.git"
+	},
+	"author": "Darko Tasevski <darktasevski@gmail.com>",
+	"bugs": {
+		"url": "https://github.com/Puritanic/vuepress-theme-solarized/issues"
+	},
+	"homepage": "https://github.com/Puritanic/vuepress-theme-solarized#readme"
+}
