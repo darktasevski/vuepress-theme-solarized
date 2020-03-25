@@ -3,6 +3,7 @@ $contentClass = '.theme-solarized-content'
 // colors - light theme
 $accentColor = #3eaf7c
 $arrowBgColor = #ccc
+$blockquoteBgDark = rgba(0,0,0,0.05)
 $badgeErrorColor = #ffdadc
 $badgeTipColor = #e7f1ec
 $badgeWarningColor = #f8f2d1
@@ -16,6 +17,7 @@ $textColorSubtle = #90a3a9 //
 // colors - dark theme
 $accentColorDark = #3eaf7c
 $arrowBgColorDark = #555
+$blockquoteBgLight =  rgba(242, 243, 244,0.05)
 $badgeErrorColorDark = #692025
 $badgeTipColorDark = #1b4b35
 $badgeWarningColorDark = #574e21
@@ -50,6 +52,7 @@ if $fallbackTheme == 'dark'
   $actionBtnBorderColorDefault = darken($accentColorDark, 10%)
   $actionBtnHoverBorderColorDefault = darken($accentColorDark, 10%)
   $arrowBgColorDefault = $arrowBgColorDark
+  $blockquoteBg = $$blockquoteBgLight
   $badgeErrorColorDefault = $badgeErrorColorDark
   $badgeErrorTextColorDefault = lighten($badgeErrorColorDark, 70%)
   $badgeErrorTitleColorDefault = lighten($badgeErrorColorDark, 50%)
@@ -76,6 +79,7 @@ else
   $actionBtnBorderColorDefault = darken($accentColor, 10%)
   $actionBtnHoverBorderColorDefault = lighten($accentColor, 10%)
   $arrowBgColorDefault = $arrowBgColor
+  $blockquoteBg = $blockquoteBgDark
   $badgeErrorColorDefault = $badgeErrorColor
   $badgeErrorTextColorDefault = darken($badgeErrorColor, 70%)
   $badgeErrorTitleColorDefault = darken($badgeErrorColor, 50%)

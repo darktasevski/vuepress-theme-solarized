@@ -13,6 +13,7 @@ for f in $themeFont
   --actionBtnBorderColor darken($accentColor, 10%)
   --actionBtnHoverBorderColor lighten($accentColor, 10%)
   --arrowBgColor $arrowBgColorDefault
+  --blockquoteBg $blockquoteBgDark
   --badgeErrorColor $badgeErrorColor
   --badgeErrorTextColor darken($badgeErrorColor, 70%)
   --badgeErrorTitleColor darken($badgeErrorColor, 50%)
@@ -40,6 +41,7 @@ for f in $themeFont
   --actionBtnBorderColor darken($accentColorDark, 10%)
   --actionBtnHoverBorderColor darken($accentColorDark, 10%)
   --arrowBgColor $arrowBgColorDefault
+  --blockquoteBg $blockquoteBgLight
   --badgeErrorColor $badgeErrorColorDark
   --badgeErrorTextColor lighten($badgeErrorColorDark, 70%)
   --badgeErrorTitleColor lighten($badgeErrorColorDark, 50%)
@@ -230,7 +232,9 @@ blockquote
   border-left .2rem solid $borderColorDefault
   border-left .2rem solid var(--borderColor)
   margin 1rem 0
-  background-color: lighten($accentColorDefault, 65%)
+  background-color $blockquoteBg
+  background-color var(--blockquoteBg)
+  border-radius 3px
   padding .5rem 1.5rem
 	& > p
 		margin 0
