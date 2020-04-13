@@ -9,6 +9,10 @@ The Solarized theme for Vuepress
 -   **Customizable typography**: Import and use your favorite web-fonts. Customize font sizes and text-adjustment for body text
 -   **Dark and light themes**: With a theme-switcher and native theme detection to set the theme automatically as per the user preference
 
+## Demo
+
+I'm too busy to create a proper demo, but you can take a look at my [Blog/Notes](https://puritanic.github.io/CompSci/) webpage if you want to see how it's looking.
+
 ## Get Started
 
 Add the dependency to your existing Vuepress project via Yarn or NPM.
